@@ -1,0 +1,30 @@
+
+# Environment variables and private secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary and backup files
+*.tmp
+*.bak
